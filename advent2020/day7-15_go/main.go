@@ -5,15 +5,17 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"puzzle/day10"
 	"puzzle/day7"
 	"puzzle/day8"
 	"puzzle/day9"
 )
 
 var puzzleFnMap = map[string]interface{}{
-	"day7": day7.Exec,
-	"day8": day8.Exec,
-	"day9": day9.Exec,
+	"day7":  day7.Exec,
+	"day8":  day8.Exec,
+	"day9":  day9.Exec,
+	"day10": day10.Exec,
 }
 
 func main() {
